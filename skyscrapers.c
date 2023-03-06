@@ -105,7 +105,7 @@ int check(int n, int i, int q[][n], int x, int r, int a[4][n]) {
 
 }
 
-int gen(int n, int a[4][n], int x) {
+int gen(int n, int a[4][n]) {
   int z = 1;
   int q[n][n];
   char h;
@@ -199,5 +199,5 @@ int main() {
     }
   };
 
-  gen(6, a, 1);
+  gen(6, a);
 }
